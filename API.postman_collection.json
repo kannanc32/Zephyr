@@ -1,0 +1,6069 @@
+{
+	"info": {
+		"name": "Zephyr for JIRA API",
+		"_postman_id": "Zephyr for JIRA API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/docs/index.html"
+	},
+	"item": [
+		{
+			"name": "ChartResource",
+			"item": [
+				{
+					"name": "Get Issue Status by Project",
+					"item": [
+						{
+							"name": "Get Issue Status by Project",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zchart/issueStatuses{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Generate Test Created Data",
+					"item": [
+						{
+							"name": "Generate Test Created Data",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zchart/testsCreated{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "ExecutionSearchResource",
+			"item": [
+				{
+					"name": "Execute Search to Get Search Result",
+					"item": [
+						{
+							"name": "Execute Search to Get Search Result",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/executeSearch{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Search Clauses",
+					"item": [
+						{
+							"name": "Get Search Clauses",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/clauses"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get AutoComplete ZQL Json",
+					"item": [
+						{
+							"name": "Get AutoComplete ZQL Json",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/autocompleteZQLJson"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "ZQLFilterResource",
+			"item": [
+				{
+					"name": "Get ZQL filter",
+					"item": [
+						{
+							"name": "Get ZQL filter",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/executionFilter/:id",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of ZQLFilter"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get All Execution Filters",
+					"item": [
+						{
+							"name": "Get All Execution Filters",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/executionFilter{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Search Execution Filters",
+					"item": [
+						{
+							"name": "Search Execution Filters",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/executionFilter/search{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Quick Search ZQL Filters",
+					"item": [
+						{
+							"name": "Quick Search ZQL Filters",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/executionFilter/quickSearch",
+									"query": [
+										{
+											"key": "query",
+											"description": "query of ZQLFilter"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Copy a ZQL Filter",
+					"item": [
+						{
+							"name": "Copy a ZQL Filter",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/executionFilter/copy"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"id\":1010,\"filterName\":\"executed by jira user2\"}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Create Execution Filter",
+					"item": [
+						{
+							"name": "Create Execution Filter",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/executionFilter"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"query\":\"executionstatus=PASS\",\"filterName\":\"executed to PASS\",\"description\":\"default\\nfilter\",\"isFavorite\":false,\"sharePerm\":2}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Update The ZQL Filter",
+					"item": [
+						{
+							"name": "Update The ZQL Filter",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/executionFilter/update"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"id\":\"1010\",\"description\":\"1executed from 2016-4-18 to 2016-10-19\\nin all projects\"}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Rename a ZQL Filter",
+					"item": [
+						{
+							"name": "Rename a ZQL Filter",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/executionFilter/rename"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"id\":1010,\"filterName\":\"executed by jira user2\"}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Toggle ZQL filter \"isFavorites\"",
+					"item": [
+						{
+							"name": "Toggle ZQL filter \"isFavorites\"",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/executionFilter/toggleFav"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"id\":1010,\"isFavorite\":true}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Deletes a ZQL filter",
+					"item": [
+						{
+							"name": "Deletes a ZQL filter",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/executionFilter/:id",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of ZQLFilter"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get LoggedIn User",
+					"item": [
+						{
+							"name": "Get LoggedIn User",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/executionFilter/user"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "CycleResource",
+			"item": [
+				{
+					"name": "Get Cycle Information",
+					"item": [
+						{
+							"name": "Get Cycle Information",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/cycle/:id",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Cycle"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Export Cycle Data",
+					"item": [
+						{
+							"name": "Export Cycle Data",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/cycle/:id/export{",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Cycle"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Create New Cycle",
+					"item": [
+						{
+							"name": "Create New Cycle",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/cycle"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"clonedCycleId\":\"\",\"name\":\"Create cycle unscheduled version with sprint\",\"build\":\"\",\"environment\":\"\",\"description\":\"Create cycle with sprint\",\"startDate\":\"4/Dec/12\",\"endDate\":\"30/Dec/15\",\"projectId\":\"10000\",\"versionId\":\"-1\",\"sprintId\":1}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Update Cycle Information",
+					"item": [
+						{
+							"name": "Update Cycle Information",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/cycle"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"id\":\"15\",\"name\":\"Updated Cycle-1\",\"build\":\"updated build:900\",\"environment\":\"linux\",\"description\":\"this is just a test\\nand another line here \\none more\",\"startDate\":\"8/Aug/13\",\"endDate\":\"8/Aug/14\",\"versionId\":\"10000\", \"folderId\":123}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Delete Cycle",
+					"item": [
+						{
+							"name": "Delete Cycle",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/cycle/:id{",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Cycle"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get List of Cycle",
+					"item": [
+						{
+							"name": "Get List of Cycle",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/cycle{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Move Executions to Cycle",
+					"item": [
+						{
+							"name": "Move Executions to Cycle",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/cycle/:id/move",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Cycle"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"executions\":[\"17\",\"18\"],\"projectId\":\"10000\",\"versionId\":\"10000\",\"clearStatusFlag\":false,\"clearDefectMappingFlag\":false,\"folderId\":123}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Cycles By Versions/Sprint",
+					"item": [
+						{
+							"name": "Get Cycles By Versions/Sprint",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/cycle/cyclesByVersionsAndSprint"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"expand\":\"executionSummaries\",\"offset\":0,\"projectId\":10000,\"sprintId\":1,\"versionId\":\"-1,10000,10001,10002,10003,10004\"}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Clean Up Sprint From Cycle",
+					"item": [
+						{
+							"name": "Clean Up Sprint From Cycle",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/cycle/cleanupSprints"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get the list of folder for a cycle",
+					"item": [
+						{
+							"name": "Get the list of folder for a cycle",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/cycle/{cycleId}/folders{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Move selected executions or all executions from cycle to folder",
+					"item": [
+						{
+							"name": "Move selected executions or all executions from cycle to folder",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/cycle/{cycleId}/move/executions/folder/{folderId}"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"projectId\":123456,\"versionId\":435345, \"schedulesList\":[3,4,5,6]}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Copy Executions to Cycle",
+					"item": [
+						{
+							"name": "Copy Executions to Cycle",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/cycle/:id/copy",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Cycle"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"executions\":[\"18\",\"17\"],\"projectId\":\"10000\",\"versionId\":\"-1\",\"clearStatusFlag\":true,\"clearDefectMappingFlag\":true}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "ZNavResource",
+			"item": [
+				{
+					"name": "Get Available Columns",
+					"item": [
+						{
+							"name": "Get Available Columns",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/znav/availableColumns{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Create Column Selection",
+					"item": [
+						{
+							"name": "Create Column Selection",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/znav/createColumnSelection"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"userName\":\"vm_admin\",\"executionFilterId\":\"204\",\"columnItemBean\":[{\"filterIdentifier\":\"Cycle Name\",\"visible\":false,\"orderId\":0},{\"filterIdentifier\":\"Issue Key\",\"visible\":true,\"orderId\":1},{\"filterIdentifier\":\"Test Summary\",\"visible\":true,\"orderId\":2},{\"filterIdentifier\":\"Project Name\",\"visible\":true,\"orderId\":3},{\"filterIdentifier\":\"Priority\",\"visible\":true,\"orderId\":4},{\"filterIdentifier\":\"Component\",\"visible\":true,\"orderId\":5},{\"filterIdentifier\":\"Version\",\"visible\":true,\"orderId\":6},{\"filterIdentifier\":\"Execution Status\",\"visible\":true,\"orderId\":7},{\"filterIdentifier\":\"Executed By\",\"visible\":true,\"orderId\":8},{\"filterIdentifier\":\"Creation Date\",\"visible\":false,\"orderId\":9},{\"filterIdentifier\":\"Executed On\",\"visible\":false,\"orderId\":10}]}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Update Column Selection",
+					"item": [
+						{
+							"name": "Update Column Selection",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/znav/updateColumnSelection/:id",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of ZNav"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"id\":5,\"userName\":\"vm_admin\",\"executionFilterId\":204,\"columnItemBean\":[{\"id\":\"63\",\"filterIdentifier\":\"Issue Key\",\"orderId\":\"1\",\"visible\":true},{\"id\":\"64\",\"filterIdentifier\":\"Test Summary\",\"orderId\":\"2\",\"visible\":true},{\"id\":\"65\",\"filterIdentifier\":\"Project Name\",\"orderId\":\"3\",\"visible\":true},{\"id\":\"66\",\"filterIdentifier\":\"Priority\",\"orderId\":\"4\",\"visible\":true},{\"id\":\"67\",\"filterIdentifier\":\"Component\",\"orderId\":\"5\",\"visible\":true},{\"id\":\"68\",\"filterIdentifier\":\"Version\",\"orderId\":\"6\",\"visible\":true},{\"filterIdentifier\":\"Cycle Name\",\"orderId\":9,\"visible\":true},{\"filterIdentifier\":\"Executed On\",\"orderId\":10,\"visible\":true},{\"id\":\"68\",\"filterIdentifier\":\"Version\",\"orderId\":\"6\",\"visible\":false}]}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "LicenseResource",
+			"item": [
+				{
+					"name": "Get License Status Information",
+					"item": [
+						{
+							"name": "Get License Status Information",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/license"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "PreferenceResource",
+			"item": [
+				{
+					"name": "Set test step customization preference.",
+					"item": [
+						{
+							"name": "Set test step customization preference.",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/preference/setteststepcustomization"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"isTestStepVisible\"  : true,\"isTestStepDataVisible\" : true,\"isTestStepExpectedResultVisible\" : true,\"isTestStepAttachmentVisible\" : false}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get test step customization preference.",
+					"item": [
+						{
+							"name": "Get test step customization preference.",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/preference/getteststepcustomization"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Set cycle summary columns customization preference.",
+					"item": [
+						{
+							"name": "Set cycle summary columns customization preference.",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/preference/setcyclesummarycustomization"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {        \"status\": true,        \"summary\": true,        \"defect\": true,        \"component\": false,        \"label\": false,        \"executedBy\": true,        \"executedOn\": true,        \"assignee\": true}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get cycle summary customization preference.",
+					"item": [
+						{
+							"name": "Get cycle summary customization preference.",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/preference/getcyclesummarycustomization"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Set execution summary columns customization preference.",
+					"item": [
+						{
+							"name": "Set execution summary columns customization preference.",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/preference/setexecutioncustomization"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {        \"testStep\": true,        \"testdata\": true,        \"expectedResult\": true,        \"stepAttachment\": true,        \"status\": true,        \"comment\": true,        \"attachments\": false,        \"defects\": false}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get execution summary customization preference.",
+					"item": [
+						{
+							"name": "Get execution summary customization preference.",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/preference/getexecutioncustomization"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "StepResultResource",
+			"item": [
+				{
+					"name": "Get list of Step Result",
+					"item": [
+						{
+							"name": "Get list of Step Result",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/stepResult{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get StepResult Information",
+					"item": [
+						{
+							"name": "Get StepResult Information",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/stepResult/:id",
+									"query": [
+										{
+											"key": "expand",
+											"description": "expand of StepResult"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of StepResult"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Create New StepResult",
+					"item": [
+						{
+							"name": "Create New StepResult",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/stepResult"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"stepId\":57,\"issueId\":\"12000\",\"executionId\":148,\"status\":\"1\",}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Update StepResult Information",
+					"item": [
+						{
+							"name": "Update StepResult Information",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/stepResult/:id",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of StepResult"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"status\":\"2\"}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get List of StepDefect",
+					"item": [
+						{
+							"name": "Get List of StepDefect",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/stepResult/:id/defects",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of StepResult"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get List of StepDefect by Execution",
+					"item": [
+						{
+							"name": "Get List of StepDefect by Execution",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/stepResult/stepDefects{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "TraceabilityResource",
+			"item": [
+				{
+					"name": "Search Defect Statistics",
+					"item": [
+						{
+							"name": "Search Defect Statistics",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/traceability/defectStatistics{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Search Execution by Defect",
+					"item": [
+						{
+							"name": "Search Execution by Defect",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/traceability/executionsByDefect{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get List of Search Execution By Test",
+					"item": [
+						{
+							"name": "Get List of Search Execution By Test",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/traceability/executionsByTest{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get List of Search Test by Requirement",
+					"item": [
+						{
+							"name": "Get List of Search Test by Requirement",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/traceability/testsByRequirement{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Export Traceability Report",
+					"item": [
+						{
+							"name": "Export Traceability Report",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/traceability/export"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"exportType\":\"HTML\",\"requirementIdList\":[10002],\"versionId\":0}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "TestcaseResource",
+			"item": [
+				{
+					"name": "Get Test Count List",
+					"item": [
+						{
+							"name": "Get Test Count List",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/test/count{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get List of Saved Searches",
+					"item": [
+						{
+							"name": "Get List of Saved Searches",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/test/mySearches/:id/",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Testcase"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Add's Issue Link",
+					"item": [
+						{
+							"name": "Add's Issue Link",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/test/addIssueLink{"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Fetch Tests By Label",
+					"item": [
+						{
+							"name": "Fetch Tests By Label",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/test/summary/testsbylabel{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Fetch Tests By Component",
+					"item": [
+						{
+							"name": "Fetch Tests By Component",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/test/summary/testsbycomponent{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Fetch Tests By Version",
+					"item": [
+						{
+							"name": "Fetch Tests By Version",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/test/summary/testsbyversion{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "UtilResource",
+			"item": [
+				{
+					"name": "Get All Versions",
+					"item": [
+						{
+							"name": "Get All Versions",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/util/versionBoard-list{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Zephyr IssueType",
+					"item": [
+						{
+							"name": "Get Zephyr IssueType",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/util/zephyrTestIssueType"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get All Projects",
+					"item": [
+						{
+							"name": "Get All Projects",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/util/project-list"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get All Versions Text",
+					"item": [
+						{
+							"name": "Get All Versions Text",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/util/allversionstext"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get List of Sprints",
+					"item": [
+						{
+							"name": "Get List of Sprints",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/util/sprintsByProjectAndVersion{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Cycle Criteria Info",
+					"item": [
+						{
+							"name": "Get Cycle Criteria Info",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/util/cycleCriteriaInfo{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Execution Statuses, Priorities, Components, Labels",
+					"item": [
+						{
+							"name": "Get Execution Statuses, Priorities, Components, Labels",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/util/teststepExecutionStatus"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Execution Statuses, Priorities, Components, Labels",
+					"item": [
+						{
+							"name": "Get Execution Statuses, Priorities, Components, Labels",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/util/teststepExecutionStatus"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Dashboard Summary",
+					"item": [
+						{
+							"name": "Get Dashboard Summary",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/util/dashboard{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Convert Markup to HTML",
+					"item": [
+						{
+							"name": "Convert Markup to HTML",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/util/render"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Components",
+					"item": [
+						{
+							"name": "Get Components",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/util/component-list{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Components",
+					"item": [
+						{
+							"name": "Get Components",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/util/component-list{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "FolderResource",
+			"item": [
+				{
+					"name": "Create a folder under cycle",
+					"item": [
+						{
+							"name": "Create a folder under cycle",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/folder/create"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"cycleId\":123456,\"name\":\"testfolder\",\"description\":\"created test folder for this cycle\",\"projectId\":10000,\"versionId\":-1,\"clonedFolderId\":1}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Update a folder information",
+					"item": [
+						{
+							"name": "Update a folder information",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/folder/{folderId}"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"folderId\":123456,\"name\":\"testfolder1\",\"description\":\"updated test folder for this cycle\"}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Delete a folder under a cycle",
+					"item": [
+						{
+							"name": "Delete a folder under a cycle",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/folder/{folderId}{"
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "ExecutionResource",
+			"item": [
+				{
+					"name": "Get Execution Information",
+					"item": [
+						{
+							"name": "Get Execution Information",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/:id",
+									"query": [
+										{
+											"key": "expand",
+											"description": "expand of Execution"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Execution"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get List of Execution",
+					"item": [
+						{
+							"name": "Get List of Execution",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Defect List",
+					"item": [
+						{
+							"name": "Get Defect List",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/:id/defects",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Execution"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Add Assignee to Execution",
+					"item": [
+						{
+							"name": "Add Assignee to Execution",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/{scheduleId}",
+									"query": [
+										{
+											"key": "assignee",
+											"description": "assignee of Execution"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Create New Execution",
+					"item": [
+						{
+							"name": "Create New Execution",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"cycleId\":\"-1\",\"issueId\":\"10013\",\"projectId\":\"10000\",\"versionId\":\"10001\",\"assigneeType\":\"assignee\",\"assignee\":\"jira_user\",\"folderId\":233}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Execution Count Summary",
+					"item": [
+						{
+							"name": "Get Execution Count Summary",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/count{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Top Defect By Issue Status",
+					"item": [
+						{
+							"name": "Get Top Defect By Issue Status",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/topDefects{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Re Index All Execution",
+					"item": [
+						{
+							"name": "Re Index All Execution",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/indexAll"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Re-Index All Execution for Current Node.",
+					"item": [
+						{
+							"name": "Re-Index All Execution for Current Node.",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/indexCurrentNode"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						},
+						{
+							"name": "Re Index All Execution for given project id(s).",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/indexCurrentNode"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Index Status",
+					"item": [
+						{
+							"name": "Get Index Status",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/indexStatus/:token",
+									"variable": [
+										{
+											"key": "token",
+											"description": "token of Execution"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get job progress status",
+					"item": [
+						{
+							"name": "Get job progress status",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/jobProgress/{jobProgressToken}",
+									"query": [
+										{
+											"key": "type",
+											"description": "type of Execution"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Update Bulk Defects",
+					"item": [
+						{
+							"name": "Update Bulk Defects",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/updateWithBulkDefects"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"executions\": [ \"67\",\"66\" ], \"defects\": [ \"ABC-41\",\"ABC-39\" ] }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Update Execution Details",
+					"item": [
+						{
+							"name": "Update Execution Details",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/:id/execute",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Execution"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"status\":\"3\"}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Delete Execution",
+					"item": [
+						{
+							"name": "Delete Execution",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/:id",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Execution"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Add Test's to Cycle",
+					"item": [
+						{
+							"name": "Add Test's to Cycle",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/addTestsToCycle/"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"components\":\"\",\"cycleId\":\"-1\",\"fromCycleId\":\"3\",\"fromVersionId\":\"10003\",\"hasDefects\":false,\"labels\":\"\",\"method\":\"3\",\"priorities\":\"\",\"projectId\":\"10000\",\"statuses\":\"\",\"versionId\":\"10003\",\"folderId\":12313}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Refresh Issue Link Status",
+					"item": [
+						{
+							"name": "Refresh Issue Link Status",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/refreshLinksStatus/:token",
+									"variable": [
+										{
+											"key": "token",
+											"description": "token of Execution"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Export Execution",
+					"item": [
+						{
+							"name": "Export Execution",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/export"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"exportType\":\"xls\",\"maxAllowedResult\":\"true\",\"expand\":\"teststeps\",\"startIndex\":\"0\",\"zqlQuery\":\"executionStatus != UNEXECUTED AND executedBy = vm_admin\"}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Navigate Execution",
+					"item": [
+						{
+							"name": "Navigate Execution",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/navigator/:id",
+									"query": [
+										{
+											"key": "zql",
+											"description": "zql of Execution"
+										},
+										{
+											"key": "offset",
+											"description": "offset of Execution"
+										},
+										{
+											"key": "expand",
+											"description": "expand of Execution"
+										}
+									],
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Execution"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Re Order Execution",
+					"item": [
+						{
+							"name": "Re Order Execution",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/reorder"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"cycleId\":\"1\",\"executionReorders\":[{\"executionId\":2,\"oldOrderId\":2,\"newOrderId\":1},{\"executionId\":1,\"oldOrderId\":1,\"newOrderId\":2}],\"versionId\":-1}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Execution Summaries By Sprint And Issue",
+					"item": [
+						{
+							"name": "Get Execution Summaries By Sprint And Issue",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/executionSummariesBySprintAndIssue"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"sprintId\":1}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Execution Summary by Issue",
+					"item": [
+						{
+							"name": "Get Execution Summary by Issue",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/executionsByIssue{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Executions count for cycles by given project id and version id",
+					"item": [
+						{
+							"name": "Get Executions count for cycles by given project id and version id",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/executionsStatusCountForCycleByProjectIdAndVersion{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Executions count for given cycle",
+					"item": [
+						{
+							"name": "Get Executions count for given cycle",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/executionsStatusCountByCycle{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Executions count per assignee for given cycle",
+					"item": [
+						{
+							"name": "Get Executions count per assignee for given cycle",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/executionsStatusCountPerAssigneeForCycle{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Delete bulk Execution",
+					"item": [
+						{
+							"name": "Delete bulk Execution",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/deleteExecutions"
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"executions\":[\"1\",\"2\"]}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Refresh Issue/Remote Link",
+					"item": [
+						{
+							"name": "Refresh Issue/Remote Link",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/refreshRemoteLinks{"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Assign Bulk Executions",
+					"item": [
+						{
+							"name": "Assign Bulk Executions",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/bulkAssign"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"executions\":[\"7\",\"6\",\"5\",\"4\",\"3\"],\"assigneeType\":\"currentUser\"}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Update Bulk Execution Status",
+					"item": [
+						{
+							"name": "Update Bulk Execution Status",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/execution/updateBulkStatus"
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"executions\":[\"7\",\"6\",\"5\",\"4\",\"3\"],\"status\":\"4\"}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "IssuePickerResource",
+			"item": [
+				{
+					"name": "Get Issues for Test",
+					"item": [
+						{
+							"name": "Get Issues for Test",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/issues{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Default Issue Type",
+					"item": [
+						{
+							"name": "Get Default Issue Type",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/issues/default",
+									"query": [
+										{
+											"key": "project",
+											"description": "project of IssuePicker"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "AuditResource",
+			"item": [
+				{
+					"name": "Get Audit Log",
+					"item": [
+						{
+							"name": "Get Audit Log",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/audit{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "TeststepResource",
+			"item": [
+				{
+					"name": "Delete TestStep",
+					"item": [
+						{
+							"name": "Delete TestStep",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/teststep/{issueId}/:id",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Teststep"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get TestStep Information",
+					"item": [
+						{
+							"name": "Get TestStep Information",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/teststep/{issueId}/:id",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Teststep"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get List of TestSteps",
+					"item": [
+						{
+							"name": "Get List of TestSteps",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/teststep/{issueId}"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Update TestStep Data",
+					"item": [
+						{
+							"name": "Update TestStep Data",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/teststep/{issueId}/:id",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Teststep"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"step\":\"Add a ZQL stmt.\",\"data\":\"required data for zql stmt\"}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Create New TestStep",
+					"item": [
+						{
+							"name": "Create New TestStep",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/teststep/{issueId}"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"step\":\"Check for schedule count\",\"data\":\"filter id\",\"result\":\"count should be equal to schedules returned by this filter.\"}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Move TestStep to Issue",
+					"item": [
+						{
+							"name": "Move TestStep to Issue",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/teststep/{issueId}/:id/move",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Teststep"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Clone TestStep",
+					"item": [
+						{
+							"name": "Clone TestStep",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/teststep/{issueId}/clone/{fromStepId}"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"position\":\"-1\"}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Copy Test steps from source to destination issues",
+					"item": [
+						{
+							"name": "Copy Test steps from source to destination issues",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/teststep/{issueId}/copyteststeps"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        {\"destinationIssues\":\"1000,1001\", \"isJql\":\"false\"}\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "AttachmentResource",
+			"item": [
+				{
+					"name": "Delete Attachment",
+					"item": [
+						{
+							"name": "Delete Attachment",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/attachment/:id",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Attachment"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Add Attachment into Entity",
+					"item": [
+						{
+							"name": "Add Attachment into Entity",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/attachment{"
+								},
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Single Attachment",
+					"item": [
+						{
+							"name": "Get Single Attachment",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/attachment/:id",
+									"variable": [
+										{
+											"key": "id",
+											"description": "id of Attachment"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Attachment By Entity",
+					"item": [
+						{
+							"name": "Get Attachment By Entity",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/attachment/attachmentsByEntity{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				},
+				{
+					"name": "Get Attachment File",
+					"item": [
+						{
+							"name": "Get Attachment File",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/attachment/:fileid/file",
+									"variable": [
+										{
+											"key": "fileid",
+											"description": "fileid of Attachment"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "ZAPIResource",
+			"item": [
+				{
+					"name": "Get ZAPI Module Status",
+					"item": [
+						{
+							"name": "Get ZAPI Module Status",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/moduleInfo"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "ZQLAutoCompleteResource",
+			"item": [
+				{
+					"name": "Get ZQL Auto Complete Result",
+					"item": [
+						{
+							"name": "Get ZQL Auto Complete Result",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/zql/autocomplete{"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "SystemInfoResource",
+			"item": [
+				{
+					"name": "Get System Information",
+					"item": [
+						{
+							"name": "Get System Information",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/systemInfo"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		},
+		{
+			"name": "FilterPickerResource",
+			"item": [
+				{
+					"name": "Get Search For Filter",
+					"item": [
+						{
+							"name": "Get Search For Filter",
+							"request": {
+								"url": {
+									"protocol": "{{scheme}}",
+									"host": "{{host}}",
+									"path": "/jira/rest/zapi/latest/picker/filters",
+									"query": [
+										{
+											"key": "query",
+											"description": "query of FilterPicker"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"description": "Request JSON response"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "        { }\n"
+								}
+							}
+						}
+					],
+					"request": {
+						"url": {
+							"protocol": "",
+							"host": "",
+							"path": ""
+						},
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": "Request JSON response"
+							}
+						],
+						"body": {}
+					}
+				}
+			],
+			"request": {
+				"url": {
+					"protocol": "",
+					"host": "",
+					"path": ""
+				},
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"description": "Request JSON response"
+					}
+				],
+				"body": {}
+			}
+		}
+	]
+}
